@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="925.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TabPane prefHeight="925.0" prefWidth="1193.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Fastest Route">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="image1" fitHeight="609.0" fitWidth="1171.0" layoutX="14.0" layoutY="14.0" onDragDetected="#mouseCoords" onMouseClicked="#getMouseCoords" pickOnBounds="true" smooth="false" />
+                        <ImageView fx:id="image2" fitHeight="251.0" fitWidth="538.0" layoutX="641.0" layoutY="627.0" pickOnBounds="true" smooth="false" />
+                        <Button layoutX="214.0" layoutY="680.0" mnemonicParsing="false" onAction="#importImage" text="Import Image" />
+                        <Button layoutX="509.0" layoutY="680.0" mnemonicParsing="false" onAction="#navigateMap" text="NAVIGATE" />
+                        <RadioButton fx:id="rb2" layoutX="322.0" layoutY="684.0" mnemonicParsing="false" text="Depth Fist" />
+                        <RadioButton fx:id="rb1" layoutX="411.0" layoutY="684.0" mnemonicParsing="false" text="Breadth First" />
+                        <TextField fx:id="one" layoutX="65.0" layoutY="632.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="two" layoutX="206.0" layoutY="632.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Button layoutX="489.0" layoutY="632.0" mnemonicParsing="false" onAction="#searchForNodes" prefHeight="25.0" prefWidth="130.0" text="Set search nodes" />
+                        <TextField fx:id="three" layoutX="346.0" layoutY="632.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Label layoutX="427.0" layoutY="724.0" text="Route Length:" />
+                        <Label fx:id="bfsLength" layoutX="526.0" layoutY="724.0" text="null" />
+                        <Label layoutX="371.0" layoutY="753.0" text="Nodes Processed to find" />
+                        <Label fx:id="bfsEnc" layoutX="522.0" layoutY="753.0" text="null" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Djikstras Route">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="djCreate" layoutX="123.0" layoutY="127.0" />
+                        <Label layoutX="159.0" layoutY="103.0" text="Create a Node" />
+                        <Label layoutX="52.0" layoutY="131.0" text="Node Name" />
+                        <Button layoutX="286.0" layoutY="127.0" mnemonicParsing="false" onAction="#createNode" text="Create" />
+                        <TextField fx:id="linkStart" layoutX="468.0" layoutY="419.0" />
+                        <Label layoutX="513.0" layoutY="386.0" text="Link Nodes" />
+                        <TextField fx:id="linkDest" layoutX="468.0" layoutY="444.0" />
+                        <Label layoutX="401.0" layoutY="423.0" text="Start Node" />
+                        <Label layoutX="402.0" layoutY="448.0" text="Dest Node" />
+                        <TextField fx:id="linkCost" layoutX="468.0" layoutY="469.0" />
+                        <Label layoutX="416.0" layoutY="473.0" text="Cost" />
+                        <Button layoutX="617.0" layoutY="469.0" mnemonicParsing="false" onAction="#linkNodes" text="Link" />
+                        <TextArea fx:id="existNodes" layoutX="375.0" layoutY="537.0" prefHeight="326.0" prefWidth="340.0" />
+                        <Label layoutX="504.0" layoutY="511.0" prefHeight="17.0" prefWidth="83.0" text="Existing Nodes" />
+                        <Label layoutX="132.0" layoutY="440.0" text="View Specific Node Links" />
+                        <TextField fx:id="djInfo" layoutX="124.0" layoutY="474.0" />
+                        <Label layoutX="53.0" layoutY="478.0" text="Node Name" />
+                        <TextArea fx:id="nodeLinks" layoutX="30.0" layoutY="536.0" prefHeight="328.0" prefWidth="337.0" />
+                        <Label layoutX="135.0" layoutY="511.0" text="Nodes linked to chosen" />
+                        <TextField fx:id="routeStart" layoutX="849.0" layoutY="419.0" />
+                        <TextField fx:id="routeDes" layoutX="849.0" layoutY="444.0" />
+                        <TextField fx:id="routeWay" layoutX="849.0" layoutY="469.0" />
+                        <Label layoutX="884.0" layoutY="386.0" text="Shortest Route" />
+                        <Label layoutX="783.0" layoutY="423.0" text="Start Node" />
+                        <Label layoutX="785.0" layoutY="449.0" text="DestNode" />
+                        <Label layoutX="787.0" layoutY="473.0" text="Waypoint" />
+                        <TextArea fx:id="genRoute" layoutX="723.0" layoutY="537.0" prefHeight="327.0" prefWidth="336.0" />
+                        <Label layoutX="846.0" layoutY="511.0" text="Generated Route" />
+                        <Button layoutX="273.0" layoutY="474.0" mnemonicParsing="false" onAction="#nodeLinks" text="View" />
+                        <Button layoutX="998.0" layoutY="469.0" mnemonicParsing="false" onAction="#geneateDjRoute" text="Generate" />
+                        <Button layoutX="123.0" layoutY="185.0" mnemonicParsing="false" onAction="#load" text="Load From List" />
+                        <Button layoutX="123.0" layoutY="210.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="95.0" text="Save To List" />
+                        <Button fx:id="unlinkNodes" layoutX="655.0" layoutY="469.0" mnemonicParsing="false" text="Unlink" />
+                        <Button fx:id="removeNode" layoutX="315.0" layoutY="474.0" mnemonicParsing="false" text="Remove" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

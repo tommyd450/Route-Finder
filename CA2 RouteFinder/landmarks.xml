@@ -1,0 +1,218 @@
+<object-stream>
+  <list>
+    <sample.GraphNodeAL>
+      <data class="string">WIT</data>
+      <cost>2147483647</cost>
+      <adjList>
+        <sample.GraphLinkAL>
+          <dest>
+            <data class="string">Historical Cork Road</data>
+            <cost>2147483647</cost>
+            <adjList>
+              <sample.GraphLinkAL>
+                <dest reference="../../../../../.."/>
+                <cost>4</cost>
+              </sample.GraphLinkAL>
+              <sample.GraphLinkAL>
+                <dest>
+                  <data class="string">Poggers Residence</data>
+                  <cost>2147483647</cost>
+                  <adjList>
+                    <sample.GraphLinkAL>
+                      <dest reference="../../../../../.."/>
+                      <cost>3</cost>
+                    </sample.GraphLinkAL>
+                    <sample.GraphLinkAL>
+                      <dest reference="../../../../../../../../.."/>
+                      <cost>5</cost>
+                    </sample.GraphLinkAL>
+                  </adjList>
+                </dest>
+                <cost>3</cost>
+              </sample.GraphLinkAL>
+              <sample.GraphLinkAL>
+                <dest>
+                  <data class="string">The Wall</data>
+                  <cost>2147483647</cost>
+                  <adjList>
+                    <sample.GraphLinkAL>
+                      <dest reference="../../../../../.."/>
+                      <cost>6</cost>
+                    </sample.GraphLinkAL>
+                    <sample.GraphLinkAL>
+                      <dest>
+                        <data class="string">Geoffs</data>
+                        <cost>2147483647</cost>
+                        <adjList>
+                          <sample.GraphLinkAL>
+                            <dest reference="../../../../../.."/>
+                            <cost>6</cost>
+                          </sample.GraphLinkAL>
+                          <sample.GraphLinkAL>
+                            <dest>
+                              <data class="string">City Square</data>
+                              <cost>2147483647</cost>
+                              <adjList>
+                                <sample.GraphLinkAL>
+                                  <dest reference="../../../../../../../../../../../.."/>
+                                  <cost>9</cost>
+                                </sample.GraphLinkAL>
+                                <sample.GraphLinkAL>
+                                  <dest reference="../../../../../.."/>
+                                  <cost>4</cost>
+                                </sample.GraphLinkAL>
+                              </adjList>
+                            </dest>
+                            <cost>4</cost>
+                          </sample.GraphLinkAL>
+                          <sample.GraphLinkAL>
+                            <dest>
+                              <data class="string">Supermacs</data>
+                              <cost>2147483647</cost>
+                              <adjList>
+                                <sample.GraphLinkAL>
+                                  <dest reference="../../../../../.."/>
+                                  <cost>12</cost>
+                                </sample.GraphLinkAL>
+                                <sample.GraphLinkAL>
+                                  <dest>
+                                    <data class="string">Clocktower</data>
+                                    <cost>2147483647</cost>
+                                    <adjList>
+                                      <sample.GraphLinkAL>
+                                        <dest>
+                                          <data class="string">Reginalds Tower</data>
+                                          <cost>2147483647</cost>
+                                          <adjList>
+                                            <sample.GraphLinkAL>
+                                              <dest reference="../../../../../../../../../../../../../../.."/>
+                                              <cost>9</cost>
+                                            </sample.GraphLinkAL>
+                                            <sample.GraphLinkAL>
+                                              <dest>
+                                                <data class="string">Peoples Park</data>
+                                                <cost>2147483647</cost>
+                                                <adjList>
+                                                  <sample.GraphLinkAL>
+                                                    <dest reference="../../../../../.."/>
+                                                    <cost>4</cost>
+                                                  </sample.GraphLinkAL>
+                                                  <sample.GraphLinkAL>
+                                                    <dest>
+                                                      <data class="string">THE Hospital</data>
+                                                      <cost>2147483647</cost>
+                                                      <adjList>
+                                                        <sample.GraphLinkAL>
+                                                          <dest reference="../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                          <cost>20</cost>
+                                                        </sample.GraphLinkAL>
+                                                        <sample.GraphLinkAL>
+                                                          <dest>
+                                                            <data class="string">Ballybeg</data>
+                                                            <cost>2147483647</cost>
+                                                            <adjList>
+                                                              <sample.GraphLinkAL>
+                                                                <dest reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                <cost>2</cost>
+                                                              </sample.GraphLinkAL>
+                                                              <sample.GraphLinkAL>
+                                                                <dest reference="../../../../../.."/>
+                                                                <cost>10</cost>
+                                                              </sample.GraphLinkAL>
+                                                            </adjList>
+                                                          </dest>
+                                                          <cost>10</cost>
+                                                        </sample.GraphLinkAL>
+                                                        <sample.GraphLinkAL>
+                                                          <dest reference="../../../../../.."/>
+                                                          <cost>5</cost>
+                                                        </sample.GraphLinkAL>
+                                                      </adjList>
+                                                    </dest>
+                                                    <cost>5</cost>
+                                                  </sample.GraphLinkAL>
+                                                </adjList>
+                                              </dest>
+                                              <cost>4</cost>
+                                            </sample.GraphLinkAL>
+                                            <sample.GraphLinkAL>
+                                              <dest reference="../../../../../.."/>
+                                              <cost>2</cost>
+                                            </sample.GraphLinkAL>
+                                          </adjList>
+                                        </dest>
+                                        <cost>2</cost>
+                                      </sample.GraphLinkAL>
+                                      <sample.GraphLinkAL>
+                                        <dest>
+                                          <data class="string">Bandstand</data>
+                                          <cost>2147483647</cost>
+                                          <adjList>
+                                            <sample.GraphLinkAL>
+                                              <dest reference="../../../../../.."/>
+                                              <cost>4</cost>
+                                            </sample.GraphLinkAL>
+                                          </adjList>
+                                        </dest>
+                                        <cost>4</cost>
+                                      </sample.GraphLinkAL>
+                                      <sample.GraphLinkAL>
+                                        <dest reference="../../../../../.."/>
+                                        <cost>7</cost>
+                                      </sample.GraphLinkAL>
+                                    </adjList>
+                                  </dest>
+                                  <cost>7</cost>
+                                </sample.GraphLinkAL>
+                              </adjList>
+                            </dest>
+                            <cost>12</cost>
+                          </sample.GraphLinkAL>
+                        </adjList>
+                      </dest>
+                      <cost>6</cost>
+                    </sample.GraphLinkAL>
+                    <sample.GraphLinkAL>
+                      <dest reference="../../sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest"/>
+                      <cost>9</cost>
+                    </sample.GraphLinkAL>
+                  </adjList>
+                </dest>
+                <cost>6</cost>
+              </sample.GraphLinkAL>
+              <sample.GraphLinkAL>
+                <dest reference="../../sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+                <cost>9</cost>
+              </sample.GraphLinkAL>
+              <sample.GraphLinkAL>
+                <dest reference="../../sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+                <cost>20</cost>
+              </sample.GraphLinkAL>
+            </adjList>
+          </dest>
+          <cost>4</cost>
+        </sample.GraphLinkAL>
+        <sample.GraphLinkAL>
+          <dest reference="../../sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+          <cost>2</cost>
+        </sample.GraphLinkAL>
+        <sample.GraphLinkAL>
+          <dest reference="../../sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+          <cost>5</cost>
+        </sample.GraphLinkAL>
+      </adjList>
+    </sample.GraphNodeAL>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[2]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest/adjList/sample.GraphLinkAL[2]/dest/adjList/sample.GraphLinkAL[3]/dest"/>
+    <sample.GraphNodeAL reference="../sample.GraphNodeAL/adjList/sample.GraphLinkAL/dest/adjList/sample.GraphLinkAL[3]/dest"/>
+  </list>
+</object-stream>
